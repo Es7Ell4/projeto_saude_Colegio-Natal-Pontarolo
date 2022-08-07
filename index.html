@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúde</title>
+    <link rel="stylesheet" href="css/css-inicial/style.css">
+    <link rel="stylesheet" href="css/css-inicial/main.css">
+    <link rel="stylesheet" href="css/css-inicial/responsividade.css">
+
+    <link rel="shortcut icon" type="imagex/png" href="img/logo.png">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <header id="imagem-fundo">
+
+        <nav class="navbar navbar-expand-lg nav z-depth-0" id="nav">
+            <div class="container-fluid geral_nav">
+                <a href="">
+                    <img src="img/logo.png" class="logo_saude" alt="micro">
+                </a>
+                <div class="collapse navbar-collapse style" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                        <li class="nav-item p-3">
+                            <a class="link active" aria-current="page" href="#">Início</a>
+                        </li>
+                        <li class="p-3">
+                            <a class="link" target="_blank" href="tipos.html">Tipos</a>
+                        </li>
+                        <li class="p-3">
+                            <a class="link" target="_blank" href="relacao.html">Relação</a>
+                        </li>
+                        <li class="p-3">
+                            <a class="link" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- =============================MODAL CONTATO====================================== -->
+
+        <section>
+            <div class="modal fade fundo" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Entre em Contato</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <input type="text" id="nome" placeholder="seu nome..." required="">
+                                <label class="text" for="nome" required="">Nome Completo</label>
+
+                                <input type="email" id="e-mail" placeholder="seu@email.com." required="">
+                                <label class="text" for="e-mail">E-mail</label>
+
+                                <textarea id="textarea1" class="materialize-textarea" placeholder="eu achei..."></textarea>
+                                <label class="text" for="textarea1">Deixe Seu Comentário</label>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary m-2" data-bs-dismiss="modal">Fechar</button>
+                            <button type="button" id="botao_modal" class="btn btn-primary botao">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="titulos">
+
+            <h1 class="title">Saúde, psicológico e sociedade!</h1>
+
+            <p class="title">Bem-vindo (a) ao portal de informações! Com objetivo de ênfase a saúde, você terá acesso a um conteúdo dinâmico, que somará para seu conhecimento pessoal. Vamos logo dar início, a essa porta aberta! </p>
+        </div>
+
+
+
+
+        <!--        ==================================CARDS============================ -->
+        <section class="pai_cards">
+            <div class="card" id="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" id="img_card" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE4ZJOnP8cswnjsMFabNMiJTF3jX2Xe4PZPg&usqp=CAU">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4" id="p_saude">Introdução<i class="material-icons right">☰</i></span>
+
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Página informativa<i class="material-icons right">×</i></span>
+                    <p>      
+                        A partir do conhecimento prévio ou consecutivo, por meio da interação com o site, as pessoas poderão se identificar, buscar ajuda, ou mesmo a estabilidade de sua saúde.          <br>   
+                        A informação pode contribuir a um estilo de vida mais adequado e enfatizar o autocuidado e também o autoconhecimento. <br>
+                        É abordado a inteligência emocional, junto também da socialização em comunidade, visando o equilíbrio do intelecto, emocional, essência e corpo.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card" id="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" id="img_card" src="img/importancia_saude.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4" id="p_saude">Importância<i class="material-icons right">☰</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Importância da saúde<i class="material-icons right">×</i></span>
+
+                    <p>Saúde também é a ausência de doença, é o estado de pleno funcionamento do organismo humano, a falta de dor. Isso mostra que é a base para a manutenção de todos os aspectos da vida, pois sem ela nós não conseguimos realizar nada nos outros
+                    aspectos de nossa vida.</p>
+                </div>
+            </div>
+
+
+            <div class="card" id="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" id="img_card" src="img/tipos.jpeg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4" id="p_saude">Tipos<i class="material-icons right">☰</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Tipos de saúde<i class="material-icons right">×</i></span>
+                    <ol>
+                        <li>Saúde Física.</li>
+                        <li>Saúde Mental.</li>
+                        <li>Saúde Social.</li>
+                        <li>Saúde Financeira.</li>
+                        <li>Saúde Profissional.</li>
+                        <li>Saúde Espiritual.</li>
+                        <li>Saúde Intelectual.</li>
+                        <li>Saúde Familiar.</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <!-- =============================MENU_MOBILE================================== -->
+
+        <!-- <section class="menu_mobile"> -->
+            <input id="burgue" type="checkbox">
+            <label class="button" for="burgue">
+                <img id="img_burgue" src="img/imagem-menu.jpg" alt="">
+            </label>
+
+            <aside>
+                <nav class="nav_mobile">
+                    <ul class="ul_menu_mobile">
+                        <li><a class="a_mobile" href="">INÍCIO</a></li>
+                        <li><a class="a_mobile" href="tipos.html">TIPOS</a></li>
+                        <li><a class="a_mobile" href="relacao.html">RELAÇÃO</a></li>
+                        <li><a class="a_mobile" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">CONTATO</a></li>
+                    </ul>
+                </nav>
+            </aside>
+
+        </section>
+    </header>
+
+    <main>
+
+        <section>
+            <div class="container pai" id="pai">
+              <div class="row">
+                <div class="col">
+                    <h1 class="h1-saude">Saúde</h1>
+                    <p class="p">Como sabemos a saúde é crucial para a nossa vida, se não estamos saudáveis sentimos um enorme desconforto. E para que isso não aconteça é preciso ter conciência e entender que devemos cuidar da dela.</p>
+
+                </div>
+
+                <div class="col positon_image">
+
+                    <img class="imagem" src="img/saude_main.jpg" alt="">
+
+                </div>
+            </div>
+
+        </section>  
+        <article class="inteligencia-emocional">
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#a2d9ff" fill-opacity="" d="M0,192L80,197.3C160,203,320,213,480,186.7C640,160,800,96,960,96C1120,96,1280,160,1360,192L1440,224L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+
+
+            <h1 class="emocional">Inteligência Emocional</h1>
+
+            <p class="p_emocional emocional">Inteligência emocional é um conceito em psicologia que descreve a capacidade de reconhecer e avaliar os seus próprios sentimentos e os dos outros, assim como a capacidade de lidar com eles.</p>
+
+            <h3 class="emocional">Veja abaixo a importância de desenvolver inteligência emocional com a psicóloga Thaiana:</h3>
+
+            <div class="video">
+                <iframe class="video-border" width="560" height="315" src="https://www.youtube.com/embed/Cfh0wap807A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>  
+        </article>
+
+        <article class="transtornos-mentais">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#86c8cf" fill-opacity="1" d="M0,128L60,112C120,96,240,64,360,53.3C480,43,600,53,720,85.3C840,117,960,171,1080,181.3C1200,192,1320,160,1380,144L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+
+
+            <h1 class="h1-saude">Transtornos mentais</h1>
+            <p class="p_emocional emocional">Entre os transtornos mentais, estão a <b>depressão</b>, o <b>transtorno afetivo bipolar</b>, a <b>esquizofrenia</b> e outras psicoses, <b>demência</b>, <b>deficiência intelectual</b> e <b>transtornos de desenvolvimento</b>, incluindo o <b>autismo</b>. Existem estratégias eficazes para a prevenção de transtornos mentais como a depressão.</p>
+
+            <h3 class="emocional">Veja abaixo um video explicando melhor sobre os transtornos mentais:</h3>
+
+
+            <div class="video">
+                <iframe class="video-border" width="560" height="315" src="https://www.youtube.com/embed/C-UXvNq7-PI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </article>
+
+        <section class="socrates">
+
+            <h1 class="filos">Um pouco de filosofia.</h1>
+
+            <div class="container" id="pai">
+              <div class="row pai">
+                <div class="col positon_image">
+                    <img class="img-socrates-1" src="img/socrates-1.jpg" alt="frase sócrates ">
+                </div>
+
+                <div class="col positon_image">
+
+                    <img src="img/socrates-2.jpg" alt="frase sócrates">
+
+                </div>
+            </div>
+
+        </section>
+        
+
+    </main>
+
+    <footer class="rodape">
+        <p >&copy; Copyright todos os direitos reservados Saúde - 2022</p>
+    </footer>
+
+    <!-- ============================MATERIALIZE=========================================== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- ============================BOOTSTRAP=========================================== -->
+
+    <!-- BOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
