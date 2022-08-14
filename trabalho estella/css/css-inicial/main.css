@@ -1,0 +1,120 @@
+/*====================================MAIN=========================================*/
+.h1-saude {
+	text-align: center;
+}
+
+.p {
+	text-align: center;
+	line-height: 2rem;
+	font-size: 1.5rem;
+	color: black;
+}
+
+.container.pai {
+	padding-top: 10rem;
+	background: #a2d9ff;
+	display: flex;
+	align-items: center;
+	max-height: 100rem;
+	max-width: 100%;
+}
+
+.imagem {
+	width: auto;
+	height: auto;
+}
+
+.positon_image {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/*======================Inteligenci emocional =============*/
+
+.inteligencia-emocional {
+	background: #86c8cf;
+}
+
+.emocional {
+	text-align: center;
+}
+
+.p_emocional {
+	line-height: 2rem;
+	font-size: 1.5rem;
+	margin: 0 2rem 1rem;
+	padding-block: 3rem;
+}
+
+.video {
+	padding: 2rem;
+	display: flex;
+	justify-content: center;
+}
+
+.video-border {
+	width: 55rem;
+	height: 25rem;
+	border-radius: 20px;
+}
+
+/*====================mentais=================*/
+
+.transtornos-mentais {
+	background: silver;
+}
+
+
+.filos {
+	text-align: center; 
+	padding-block: 2rem;
+}
+
+.pai {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;	
+}
+
+.img-socrates-1 {
+	padding-block: 2rem;
+}
+
+
+/*==================footer=====================*/
+
+
+.rodape {
+	text-align: center;
+	color: #fff;
+	padding-block: 10em;
+	background: no-repeat rgba(0, 0, 0, .85) url('https://static.portaldaindustria.com.br/media/filer_public/d7/10/d710ed61-f80d-4abe-88d0-ba1a00338e5b/saude-suplementar-planos-de-saude-sst.jpg');
+	background-blend-mode: darken;
+	background-size: cover;
+}	
+
+
+.rodape p {
+	font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
