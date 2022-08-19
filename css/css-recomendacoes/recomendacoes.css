@@ -1,0 +1,211 @@
+body{
+	margin: 0;
+	font-family: 'Pacifico', cursive;
+	padding: 0;
+}
+
+
+.navegation {
+	box-sizing: border-box;
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.a_menu {
+	text-decoration: none;
+	color: white;
+	font-size: 2rem;
+	padding: 1rem;
+}
+
+.header {
+	height: 100vh;
+	background: rgba(0 ,0, 0, .65) url('https://media.istockphoto.com/photos/business-woman-and-man-meeting-and-talking-picture-id1331840609?k=20&m=1331840609&s=612x612&w=0&h=fofr7dtFwOY27qqiPiZeVBDAVXsAR0STR29zLX13rHQ=');
+	background-blend-mode: darken; 	
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.menu {
+	display: flex;
+	list-style: none;
+	gap: .5rem;
+}
+
+.btn-mobile {
+	display: none;
+}
+
+.center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 70vh;
+	color: white;
+}
+
+.titulo_recomend {
+	font-size: 3rem;
+
+}
+
+/*====================main==================*/
+
+.container.pai {
+	padding-top: 7rem;
+	max-width: 100%;
+}
+
+.linha {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.imagem {
+	width: auto;
+	height: auto;
+	padding-block: 3rem;
+	object-fit: cover;
+}
+
+.imagem:hover {
+	opacity: 0.7;
+}
+
+.positon_image {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: c
+}
+
+.p {
+	text-align: center;
+	line-height: 2rem;
+	font-size: 1.5rem;
+	color: black;
+}
+
+h2 {
+	text-align: center;
+}
+
+li {
+	line-height: 170%;
+	font-size: 1.5rem;
+}
+
+.left {
+	margin-left: 17rem;
+}
+
+
+.bov-natal {
+	display: flex;
+	justify-content: center;
+	padding-block: 2rem;
+}
+
+/*=======================footer================*/
+
+footer {
+	padding-block:  10rem;
+	background: black;
+	color: white;
+	display: flex;
+	justify-content: center;
+	margin-top: 9rem;
+	font-size: 30px;
+}
+
+
+@media screen and (max-width: 1200px) {
+	.imagem {
+		width: 30rem;
+		height: 50rem;
+	}
+
+	.a_menu {
+		font-size: 2rem;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+
+	#logo {
+		width: 7rem;
+	}
+}
+
+
+@media screen and (max-width: 600px) {
+
+	footer {
+		font-size: 11px;
+	}
+
+	.bov-natal {
+		display: none;
+	}
+	
+	.left {
+		margin-left: 0;
+	}
+
+	.a_menu {
+		font-size: 20px;
+	}
+
+	#logo {
+		width: 3rem;
+	}
+
+	.imagem  {
+		widows: auto;
+		height: auto;
+	}
+
+	.titulo_recomend {
+		font-size: 2rem;
+	}
+
+	.btn-mobile {
+		display: flex;
+		width: 2.2rem;
+		border-radius: 50%;
+
+	}
+
+	.menu {
+		display: none;
+		position: absolute;
+		width: 100%;
+		top: 70px;
+		right: 0;	
+		height: calc( 100vh -70px);
+		z-index: 20;
+	}	
+
+	.li_menu {
+		padding-block: 1rem;
+	}
+
+	.nav.ativar .menu {
+		display: block;
+	}
+
+	.menu .li_menu {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.imagem {
+		width: 25rem;
+		padding: 1rem;
+	}
+}
+

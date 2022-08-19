@@ -1,0 +1,168 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;	
+}
+
+#imagem-fundo {
+	width: 100%;
+	height: 100vh;
+	background: url('https://st.depositphotos.com/1907633/2380/i/600/depositphotos_23805107-stock-photo-medicine-doctor-working-with-modern.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+#nav {
+	background: transparent!important;
+}
+
+.logo_saude {
+	width: 4rem;
+}
+
+.logo_saude:hover {
+	width: 5rem;
+	transition: ease-in-out 250ms all;
+}
+
+.link {
+	color: white;
+	text-decoration: none;
+	font-family: Open Sans;
+	font-size: 25px!important;
+}
+
+.fundo {
+	background: none!important;
+}
+
+#botao_modal {
+	background: #20c997;
+	border: none;
+}
+
+.text {
+	font-size: 15px;
+}
+
+#card {
+	background: rgba(0, 0, 0, .75);
+	margin-top: auto;
+	display: inline-block;
+}
+
+#card:hover {
+	animation: animation-alura 200ms forwards;
+}
+
+.img_card {
+	width: 15rem;
+	height: 13rem;
+}
+
+.img_pontos {
+	width: 2rem;
+}
+
+#p_saude {
+	color: white!important;
+	text-align: center;
+}
+
+#p_saude-2 {
+	color: white!important;
+	margin-right: 1rem;
+}
+
+.bov-natal {
+	display: flex;
+	justify-content: center;
+	padding-block: 2rem;
+}
+
+/*<!-- =============================MENU_MOBILE================================== -->*/
+
+.a_mobile {
+	text-decoration: none!important;
+	color: white;
+	font-weight: bold;
+	display: block;
+	padding: 20px 10rem;
+	margin-left: -35px;
+}
+
+#img_burgue {
+	display: none;
+	width: 6rem;
+	border-radius: 50%;
+}
+
+.a_mobile:hover {
+	background-color: rgb(76, 224, 230);
+	color: black;
+}
+
+body {
+	font-family: arial;
+}
+
+.nav_mobile {
+	background-color: rgba(0, 0, 0,.95);
+	width: 350px;
+	height: 100%;
+	left: -350px;
+	position: absolute;
+	top: 0;
+	z-index: 10;
+}
+
+.ul_menu_mobile {
+	list-style: none;
+	top: 100px;
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.mudaNav {
+	transform: translateX(350px);
+	width: 100%;
+}
+
+.mudaNav ~ body {
+	overflow: hidden;
+}
+
+#burgue {
+	display: none;
+}
+
+.button {
+	position: absolute;
+	z-index: 20;
+	padding: 25px;
+	top: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.titulos {
+	display: inline-block;
+	margin: 3rem auto;
+	padding-bottom: 4rem;
+	padding: 2rem;
+	background: rgba(0 ,0, 0, .7);
+}
+
+.title , .subtitle {
+	text-align: center;
+	color: white;
+}

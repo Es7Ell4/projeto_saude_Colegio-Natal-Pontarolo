@@ -1,0 +1,276 @@
+/*==================RESPONSIVIDADE=============================*/
+
+@media screen and (min-width: 1400px) {
+    .link {
+        font-size: 2rem!important;
+    }
+    .navigation a {
+        font-size: 25px;
+    }
+
+    .titulos {
+        margin-top: 8rem;
+    }
+
+    .pai_cards {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #card {
+        min-width: 27rem;
+        margin-top: 5em;
+    }
+
+    .p_card {
+        font-size: 1.5rem;
+    }
+
+    .imagem {
+        width: 45rem;
+    }
+
+    .title {
+        font-size: 3rem!important;
+    }
+
+    .subtitle {
+        font-size: 1.5rem!important;
+    }
+
+    .video-border {
+        width: 100rem;
+        height: 50rem;
+    }
+
+    .img-carrossel {
+        height: 50vh;
+    }
+
+    .title_tipo {
+        font-size: 3rem;
+    }
+
+    .li_tipos {
+        font-size: 2rem!important;
+    }
+
+    #p {
+        font-size: 2rem!important;
+    }
+
+    .logo_tipos {
+        width: 5.5rem;
+    }
+
+    .logo_saude {
+        width: 6rem;
+    }
+
+    .geral_nav {
+        margin-top: 2rem;
+    }
+
+    .rodape > p {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    #imagem-fundo {
+        width: 100%;
+        height: 100vh;
+        background: url('https://st.depositphotos.com/1907633/2380/i/600/depositphotos_23805107-stock-photo-medicine-doctor-working-with-modern.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .subtitle {
+        font-size: 15px;
+    }
+
+    .link {
+        font-size: 20px;
+    }
+
+    .pai_cards {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .navigation {
+        margin: -2rem 0 1rem;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navigation a {
+     color: #fff;
+       margin: 0 auto;
+   }
+
+   #card {
+    width: 20rem!important;
+}
+
+
+aside {
+    visibility: hidden;
+}
+
+* {
+    font-family: "Pacifico", cursive;
+}
+}
+
+
+@media screen and (min-width: 700px) {
+
+    #imagem-fundo {
+        height: 110vh;
+    }
+
+    .nav_mobile {
+        display: inline;
+        background: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: auto;
+    }
+
+    .ul_menu_mobile {
+        list-style: none;
+        position: relative;
+        top: 0;
+        display: inline;
+    }
+
+    .a_mobile {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        display: inline;
+        padding: 1rem;
+        margin-left: 6rem;
+    }
+
+    #img_burgue {
+        display: none;
+    }
+
+    .pai_cards {
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        z-index: 100;
+    }
+
+    #card {
+        width: 15rem;
+    }
+
+    .navigation {
+        position: relative;
+        z-index: 100;
+        margin: -2rem 0 1rem;
+        width: 100%;
+        display: none;
+        flex-direction: row;
+    }
+
+    .navigation a {
+        line-height: 170%;
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        justify-content: center;
+        margin: 0 auto;
+        color: #fff;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    #img_burgue {
+        width: 3rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: flex-end;
+        margin: -1rem 110px;
+        position: fixed;
+    }
+
+    .style_nav {
+        padding-block: 1rem;
+        background-color: rgba(0, 0, 0,.75);
+        position: fixed;
+        z-index: 10;
+    }
+
+    #imagem-fundo {
+        background: #a8d4ff;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+    }
+
+    #nav {
+        background: transparent!important;
+    }
+
+    .logo_saude {
+        width: 3rem;
+    }
+
+    .navigation {
+        width: 100%;
+        margin: -3rem 0 2rem;
+    }
+
+    .navigation a {
+        line-height: 180%;
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    #card {
+        width: 20rem;
+        margin: 70px 0px 0px 0px;
+        display: flex;
+    }
+
+    .imagem {
+        width: 24rem;
+    }
+
+    .titulos {
+        background: none;
+    }
+
+    .title , .subtitle {
+        color: black;
+    }
+
+    .nav_mobile {
+        position: fixed;
+    }
+
+    .nav_mobile.mudaNav {
+        transition: 700ms;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    .bov-natal {
+        display: none;
+    }
+}
